@@ -54,3 +54,64 @@ select warehouse_no from warehouse where city='bangalore'));
 
 Q3)delete from item
 where item_no = 10;
+
+Select*from customer;
+
+CUST-NO	CNAME	CITY
+1	Anish	Bangalore
+2	Shilpa	Bangalore
+3	Sammer	Mumbai
+4	Akash	Kolkata
+5	Devika	Bangalore
+6	Suman	Mumbai
+
+Select * from orders;
+
+Order_no  odate    cust_no ord_amt
+100      20-3-20    1      5000
+101      21-3-20    2      2300
+102      20-3-20    1      4500
+103      22-3-19    3      5600
+104      21-3-20    4      1200
+105      20-5-20    5      2300
+106      24-4-20    6      1400
+
+
+Select*from items;
+
+Item_no   unit_price
+10         100
+11         150
+12         90
+13         120
+
+
+Queies:-
+Q1)
+
+Cname    no_of_orders   Avg1order_amnt
+Anish     2             4000
+Shilpa    1             2000
+Samer     1             1200
+Devika    1             3500
+Akash     1             2200
+Suman     1             1800
+
+
+Q3)
+
+Order_no    item_no    qty
+100         (null)      1
+101          11         1
+102          12         1
+103          13         2
+104          null       1
+105          12         1
+106          11         1
+
+
+
+
+
+
+
